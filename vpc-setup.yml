@@ -28,7 +28,7 @@
         cidr: "{{PubSub1Cidr}}"
         map_public: yes
         resource_tags:
-          name: vprofile-pubsub1
+          Name: vprofile_pubsub1
       register: pubsub1_out
 
     - name: Create Public Subnet2 in availability zone 2
@@ -40,7 +40,7 @@
         cidr: "{{PubSub2Cidr}}"
         map_public: yes
         resource_tags:
-          name: vprofile-pubsub2
+          Name: vprofile_pubsub2
       register: pubsub2_out
 
     - name: Create Public Subnet3 in availability zone 3
@@ -52,5 +52,5 @@
         cidr: "{{PubSub3Cidr}}"
         map_public: yes
         resource_tags:
-          name: vprofile-pubsub3
+          Name: vprofile_pubsub3
       register: pubsub3_out
