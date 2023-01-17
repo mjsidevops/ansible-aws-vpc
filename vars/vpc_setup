@@ -18,3 +18,5 @@ region: us-east-1
 zon1: us-east-1a
 zon2: us-east-1b
 zon3: us-east-1c
+
+state: present
