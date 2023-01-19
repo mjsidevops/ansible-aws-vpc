@@ -13,6 +13,9 @@
     - name: Import vpc setup variables
       include_vars: vars/vpc_setup
 
+    - name: Import vpc setup variables
+      include_vars: vars/vpc_output_IDs
+
     - name: Create vprofile ec2 key
       ec2_key:
         name: vprokey
