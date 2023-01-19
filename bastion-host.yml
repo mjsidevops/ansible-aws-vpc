@@ -34,6 +34,12 @@
             cidr_ip: "{{MYIP}}"
       register: BastionSG_out
 
+    - name: Insert/Update "BastionSGid" in vars/vpc_output_variables
+      blockinfile:
+        path: vars/vpc_output_variables
+        backup: yes
+        block: |
+          BastionSGid: {{BastionSG_out.group_id}}
 
 
     - name: creating bastion host
