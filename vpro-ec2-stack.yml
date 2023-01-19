@@ -88,7 +88,7 @@
         count_tag:
           Name: "web01"
           Project: Vprofile
-          Owner: Devops Team.
+          Owner: Devops Team
         group_id: "{{vproStackSG_out.group_id}}"
         vpc_subnet_id: "{{priv1sub1id}}"
       register: web01_out
