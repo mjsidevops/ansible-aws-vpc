@@ -109,7 +109,7 @@
         count_tag:
           Name: "app01"
           Project: Vprofile
-          Owner: Devops Team.
+          Owner: Devops Team
         group_id: "{{vproStackSG_out.group_id}}"
         vpc_subnet_id: "{{priv1sub1id}}"
       register: app01_out
@@ -130,7 +130,7 @@
         count_tag:
           Name: "mc01"
           Project: Vprofile
-          Owner: Devops Team.
+          Owner: Devops Team
         group_id: "{{vproStackSG_out.group_id}}"
         vpc_subnet_id: "{{priv1sub1id}}"
       register: mc01_out
@@ -151,7 +151,7 @@
         count_tag:
           Name: "rmq01"
           Project: Vprofile
-          Owner: Devops Team.
+          Owner: Devops Team
         group_id: "{{vproStackSG_out.group_id}}"
         vpc_subnet_id: "{{priv1sub1id}}"
       register: rmq01_out
@@ -172,7 +172,7 @@
         count_tag:
           Name: "db01"
           Project: Vprofile
-          Owner: Devops Team.
+          Owner: Devops Team
         group_id: "{{vproStackSG_out.group_id}}"
         vpc_subnet_id: "{{priv1sub1id}}"
       register: db01_out
