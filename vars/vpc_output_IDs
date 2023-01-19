@@ -9,4 +9,4 @@ igwid: igw-09fea43aeda828a4c
 pubRTid: rtb-05d848f959d53a922
 NATGWid: nat-07fb2a6cf707f0c82
 privRTid: rtb-0ed0d4c1cecfd0db9
-BastionSGid:
+BastionSGid: sg-0b5bc81fd160d4fff
