@@ -22,6 +22,9 @@
         region: "{{region}}"
       register: vprokey_out
 
+    - debug:
+        var: vprokey_out
+
     - name: save private key into loginkey_vpro.pem
       copy:
         content: "{{vprokey_out.key.private_key}}"
